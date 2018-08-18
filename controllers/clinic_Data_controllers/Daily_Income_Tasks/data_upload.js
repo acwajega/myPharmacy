@@ -105,7 +105,7 @@
 				 	//---------------If no data has been entred-----------
 				 	if (results.length === 0){
 				 		insertIntoDailyIncomes();//---insert into the table
-				 		InsertIntoDailyIncomesUserSyncTable();
+				 		//InsertIntoDailyIncomesUserSyncTable();
 
 				 		
 
@@ -115,7 +115,7 @@
 				 	else
 				 	{
 				 		upDateDailyIncome();//---------UPDATE
-				 		InsertIntoDailyIncomesUserSyncTable();
+				 	//	InsertIntoDailyIncomesUserSyncTable();
 
 				 		
 				 	}
